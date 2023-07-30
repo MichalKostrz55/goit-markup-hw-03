@@ -135,9 +135,13 @@ body {
   line-height: 1.111111111111111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .waht-are-we-doing-list {
   list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
 }
 .what-are-we-doing-images {
   border: 1px solid var(--color-accent);
@@ -153,9 +157,13 @@ body {
   line-height: 1.111111111111111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .our-team-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 .our-team-images {
   background-color: var(--color-whitebackground);
@@ -171,6 +179,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  margin-bottom: 8px;
 }
 .our-team-description {
   color: var(--color-text);
@@ -179,8 +189,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.our-team-figcaption {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .footer-background {
   background-color: var(--color-dark);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .logo-studio-footer {
   color: var(--color-light);
@@ -200,6 +216,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
+  margin-top: 17.5px;
 }
 .background-color-portoflio {
   background-color: var(--color-whitebackground);
@@ -279,7 +297,11 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+figure {
   margin: 0;
   padding: 0;
+}
+img {
+  display: block;
 }
