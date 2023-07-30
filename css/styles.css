@@ -18,6 +18,8 @@ body {
 .header-background {
   background-color: var(--color-whitebackground);
   color: var(--color-text);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-studio-header {
   color: var(--color-primarybrand);
@@ -34,6 +36,8 @@ body {
 }
 .menu-list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .menu-item {
   color: var(--color-dark);
@@ -49,6 +53,8 @@ body {
 }
 .address-list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .address-list-item {
   color: var(--color-text);
@@ -232,4 +238,27 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  border: solid 1px red;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-menu-flex {
+  display: flex;
+  gap: 76px;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+menu {
+  margin: 0;
+  padding: 0;
 }
